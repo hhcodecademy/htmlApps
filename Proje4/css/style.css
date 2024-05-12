@@ -1,0 +1,17 @@
+#city_container{
+ border: 1px solid black;
+ display: flex;
+}
+.city{
+    border: 1px solid black;
+    width: 33%;
+}
+#city1{
+   background-color: blue;
+}
+#city2{
+    background-color: red;
+}
+#city3{
+    background-color: green;
+}
