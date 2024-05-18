@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#full_container{
+    background-color:#6e879d;
+    width: 100%;
+    height: 100vh;
+}
+#main_container{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    background-color:white;
+}
+#header1{
+    height: 30px;
+    width: 100%;
+    background-color: red;
+}
+#header2{
+    width: 100%;
+    height: 160px;
+    background-color: blue;
+    background-image: url(/images/topGerbBg_az.png);
+    background-size: 100%;
+}
+nav{
+    background-color: #011641;
+    color: white;
+    width: 100%;
+    height: 30px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+li{
+    display: flex;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+aside{
+    background-image: url(./images/top_prezident_bg_az.jpg);
+    background-size: 100%;
+    background-color: green;
+    border: 1px solid;
+    width: 30%;
+    height: 280px;
+}
+#carusel{
+    background-image: url(./images/13372narıncı\ misli.jpg);
+    width: 70%;
+    height: 280px;
+}
+#sectionid{
+display: flex;
+}
+#teams{
+    height: 70px;
+    background-color: white;
+}
+#teams ul{
+    display: flex;
+    justify-content: space-between;
+}
+#teams li{
+    height: 70px;
+    width: 100%;
+}
+#teams li img {
+    width: 40%;
+    height: 100%;
+    margin:auto;
+}
+#ligalar{
+    width: 59%;
+
+}
+#section2{
+    display: flex;
+    justify-content: space-between;
+}
+#turnir_cedvel{
+    width: 40%;
+}
+#ligalar .head, #turnir_cedvel .head{
+    background-color:#011641;
+    width: 100%;
+    height: 35px;
+}
+
